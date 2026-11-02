@@ -27,3 +27,15 @@ function filterById(properties, id){
 
 console.log(filterById(properties, 1))
 
+function filterByPriceRange(properties, minPrice, maxPrice) {
+    if (minPrice > maxPrice) {
+        throw new Error("Minimum price cannot exceed maximum price");
+    }
+
+    return properties.filter(
+        property => property.price >= minPrice &&
+                    property.price <= maxPrice
+    );
+}
+
+console.log(filterByPriceRange(properties, 150000, 200000))
