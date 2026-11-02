@@ -5,3 +5,7 @@ const properties = [
 ];
 
 console.log(properties)
+
+
+
+"Bla bla"
