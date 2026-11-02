@@ -27,3 +27,8 @@ function filterById(properties, id){
 
 console.log(filterById(properties, 1))
 
+function filterByPriceRange(properties, minPrice, maxPrice) {
+    return properties.filter(property => property.price <= maxPrice && property.price >= minPrice)
+}
+
+console.log(filterByPriceRange(properties, 150000, 200000))
