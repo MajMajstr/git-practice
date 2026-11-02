@@ -5,3 +5,10 @@ const properties = [
 ];
 
 console.log(properties)
+
+
+function filterByPrice(properties, maxPrice){
+    return properties.filter(property => property.price <= maxPrice);
+}
+
+console.log(filterByPrice(properties, 180000))
