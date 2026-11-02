@@ -12,3 +12,10 @@ function filterByPrice(properties, maxPrice){
 }
 
 console.log(filterByPrice(properties, 180000))
+
+
+function filterByCity(properties, city){
+    return properties.filter(property => property.city <= city)
+}
+
+console.log(filterByCity(properties, "Ljubljana"))
