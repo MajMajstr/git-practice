@@ -1,4 +1,4 @@
-const appName = "Property managment system";
+const appName = "Something new";
 console.log(appName)
 
 
