@@ -39,3 +39,5 @@ function filterByPriceRange(properties, minPrice, maxPrice) {
 }
 
 console.log(filterByPriceRange(properties, 150000, 200000))
+
+// Updated on github
