@@ -1,4 +1,4 @@
-const appName = "Something new";
+const appName = "Realestate Dashboard";
 console.log(appName)
 
 
